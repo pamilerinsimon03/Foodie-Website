@@ -24,7 +24,7 @@ header {
 
 #bg-image {
     color: #081C58;
-    background-image: url(/images/paper.png);
+    background-image: url(./paper.png);
     background-size: 800px;
     background-repeat: no-repeat;
     background-position: right;
@@ -271,7 +271,7 @@ nav {
     text-align: center;
     padding-top: 1.875rem;
     padding-bottom: 1.875rem;
-    background-image: url(/images/Leaves.jpg);
+    background-image: url(./Leaves.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
