@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="bg-image">
+        <nav>
+            <a href="./index.html" class="navbar-brand">
+                <img id="Logo" src="./images/Foodie Logo.png" alt="Foodie logo">
+            </a>
+            <div id="container-fluid">
+                <ul id="navbar-nav">
+                    <li class="nav-item">
+                        <div class="nav-hover-box">
+                            <a class="nav-link" href="#Home">
+                                HOME
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-hover-box">
+                            <a class="nav-link" href="#About">
+                                About
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-hover-box">
+                            <a class="nav-link" href="#Shop">
+                                Shop
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-hover-box">
+                            <a class="nav-link" href="#Customer">
+                                Customer
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-hover-box">
+                            <a class="nav-link" href="#Contact">
+                                Contact
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggle" onclick="toggleMenu();">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+        <header>
+            <section id="Home" class="flexbox-container">
+
+                <div id="left">
+                    <h3>WELCOME TO OUR</h3>
+                    <h1>Healthy Food <br> Collection!</h1>
+                    <p>
+                        Ut labore est commodo quis sint. Et ipsum id ea enim cupidatat cillum aliqua aliquip amet. Magna
+                        irure non labore adipisicing.
+                    </p>
+                    <button class="submit-button-home">
+                        Our Menu
+                    </button>
+                </div>
+                <div class="right">
+                    <img src="./images/Screenshot_2024-08-18_225739-removebg-preview.png" alt="Food Image"
+                        id="food-image">
+                </div>
+            </section>
+        </header>
+    </div>
+
+    <section id="About">
+        <h2>TODAY'S DEALS</h2>
+        <div id="deals-card">
+            <div class="green-salad">
+                <img src="./images/Foodie Element Green Salad 1.png" alt="">
+                <p class="salad">Green Salad</p>
+                <p class="price">$ 12.4</p>
+            </div>
+            <div class="green-salad"><img src="./images/Foodie Element Green Salad 1.png" alt="">
+                <p class="salad">Green Salad</p>
+                <p class="price">$ 12.4</p>
+            </div>
+            <div class="green-salad"><img src="./images/Foodie Element Green Salad 2.png" alt="">
+                <p class="salad">Green Salad</p>
+                <p class="price">$ 12.4</p>
+            </div>
+            <div class="green-salad"><img src="./images/Foodie Element Green Salad 3.png" alt="">
+                <p class="salad">Green Salad</p>
+                <p class="price">$ 12.4</p>
+            </div>
+        </div>
+    </section>
+    <section id="Shop">
+        <h2>Food Shop</h2>
+        <h3>Deserunt ipsum eiusmod do occaecat consequat cupidatat.</h3>
+        <div class="card-container">
+            <div class="Tasty-food-card">
+                <div class="T-FoodImg">
+                    <img src="./images/Screenshot 2024-08-19 123035.png" alt="">
+                </div>
+                <div class="Tasty-food-container">
+                    <div class="Tasty-food">
+                        <h4>Tasty Food</h4>
+                        <p>$ 14.2</p>
+                    </div>
+                    <div class="Shopping-cart">
+                        <img class="cart-icon" src="./images/add-cart.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Tasty-food-card">
+                <div class="T-FoodImg">
+                    <img src="./images/Screenshot 2024-08-19 123111.png" alt="">
+                </div>
+                <div class="Tasty-food-container">
+                    <div class="Tasty-food">
+                        <h4>Tasty Food</h4>
+                        <p>$ 14.2</p>
+                    </div>
+                    <div class="Shopping-cart">
+                        <img class="cart-icon" src="./images/add-cart.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Tasty-food-card">
+                <div class="T-FoodImg">
+                    <img src="./images/Screenshot 2024-08-19 123141.png" alt="">
+                </div>
+                <div class="Tasty-food-container">
+                    <div class="Tasty-food">
+                        <h4>Tasty Food</h4>
+                        <p>$ 14.2</p>
+                    </div>
+                    <div class="Shopping-cart">
+                        <img class="cart-icon" src="./images/add-cart.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Tasty-food-card">
+                <div class="T-FoodImg">
+                    <img src="./images/Screenshot 2024-08-26 215232.png" alt="">
+                </div>
+                <div class="Tasty-food-container">
+                    <div class="Tasty-food">
+                        <h4>Tasty Food</h4>
+                        <p>$ 14.2</p>
+                    </div>
+                    <div class="Shopping-cart">
+                        <img class="cart-icon" src="./images/add-cart.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Tasty-food-card">
+                <div class="T-FoodImg">
+                    <img src="./images/Screenshot 2024-08-26 215251.png" alt="">
+                </div>
+                <div class="Tasty-food-container">
+                    <div class="Tasty-food">
+                        <h4>Tasty Food</h4>
+                        <p>$ 14.2</p>
+                    </div>
+                    <div class="Shopping-cart">
+                        <img class="cart-icon" src="./images/add-cart.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Tasty-food-card">
+                <div class="T-FoodImg">
+                    <img src="./images/Screenshot 2024-08-26 215312.png" alt="">
+                </div>
+                <div class="Tasty-food-container">
+                    <div class="Tasty-food">
+                        <h4>Tasty Food</h4>
+                        <p>$ 14.2</p>
+                    </div>
+                    <div class="Shopping-cart">
+                        <img class="cart-icon" src="./images/add-cart.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Customer">
+        <h2>Our Customer's</h2>
+        <h3>Elit laboris Lorem commodo culpa aute minim eiusmod et.</h3>
+        <div class="customer-container">
+            <div class="customer-card">
+                <img class="customer-img" src="./images/Black woman.png" alt="">
+                <div class="star-rating">
+                    <span class="star full">&#9733;</span>
+                    <span class="star full">&#9733;</span>
+                    <span class="star full">&#9733;</span>
+                    <span class="star full">&#9733;</span>
+                    <span class="star half">&#9734;</span>
+                </div>
+                <p>Lorem voluptate quis sunt ad culpa eiusmod anim magna ullamco culpa. Cupidatat ad occaecat occaecat
+                    aliqua exercitation amet ex tempor.</p>
+                <h4>Taylor Swift</h4>
+            </div>
+            <div class="customer-card">
+                <img class="customer-img" src="./images/f7a07822-55ed-4afa-a900-411b643cef25.png" alt="">
+                <div class="star-rating">
+                    <span class="star full">&#9733;</span>
+                    <span class="star full">&#9733;</span>
+                    <span class="star full">&#9733;</span>
+                    <span class="star full">&#9733;</span>
+                    <span class="star half">&#9734;</span>
+                </div>
+                <p>Lorem voluptate quis sunt ad culpa eiusmod anim magna ullamco culpa. Cupidatat ad occaecat occaecat
+                    aliqua exercitation amet ex tempor.</p>
+                <h4>Sandy Cheeks</h4>
+            </div>
+            <div class="customer-card">
+                <img class="customer-img" src="./images/pexels-jeffreyreed-769772.jpg" alt="">
+                <div class="star-rating">
+                    <span class="star full">&#9733;</span>
+                    <span class="star full">&#9733;</span>
+                    <span class="star full">&#9733;</span>
+                    <span class="star full">&#9733;</span>
+                    <span class="star half">&#9734;</span>
+                </div>
+                <p>Lorem voluptate quis sunt ad culpa eiusmod anim magna ullamco culpa. Cupidatat ad occaecat occaecat
+                    aliqua exercitation amet ex tempor.</p>
+                <h4>Patrick Star</h4>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2>Contact Us</h2>
+        <h3>Aliquip eiusmod velit mollit non nisi est proident occaecat veniam ad nulla eiusmod.</h3>
+        <div class="container-contact">
+            <div id="Address">
+                <h2>Get In Touch</h2>
+                <p>
+                    Veniam cupidatat nulla eu proident labore laborum cillum. Officia fugiat do aliqua officia consequat
+                    veniam ea elit mollit qui.
+                </p>
+                <div class="address-container">
+                    <div class="address-items">
+                        <img src="./images/location.png" alt="">
+                        <address>1234 street Oyo State, Nigeria.</address>
+                    </div>
+                    <div class="address-items">
+                        <img src="./images/telephone-call.png" alt="">
+                        <p>+234 123 4567</p>
+                    </div>
+                    <div class="address-items">
+                        <img src="./images/mail.png" alt="">
+                        <p>contact@foodie.com</p>
+                    </div>
+                </div>
+                <div class="socials">
+                    <a href="https://www.facebook.com/profile.php?id=61558776551513&mibextid=ZbWKwL"><img
+                            src="./images/facebook (1).png" alt="Facebook Account"></a>
+                    <a href="https://x.com/SimonPamilerin?t=wZSS2vzBVdnEPQA1O5t9MQ&s=09"><img src="./images/twitter.png"
+                            alt="X Account"></a>
+                    <a href="https://www.instagram.com/sima_designs_?igsh=dDd3bGV4Yzlvd3o2"><img
+                            src="./images/instagram.png" alt="Instagram Account"></a>
+                </div>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Name*" id="name">
+                <input type="email" name="email" id="email" placeholder="Email*">
+                <textarea name="Message*" id="message" placeholder="Message*"></textarea>
+                <input type="submit" value="SUBMIT" id="Submit-button">
+            </form>
+        </div>
+        <p>© SIMATechx All Right Reserved.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
