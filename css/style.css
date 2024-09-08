@@ -28,6 +28,7 @@ header {
     background-size: 800px;
     background-repeat: no-repeat;
     background-position: right;
+    height: 100vh;
     max-height: 100%;
     padding-bottom: 8rem;
     max-width: 100%;
@@ -121,6 +122,7 @@ nav {
 .nav-item {
     margin-right: 1.25rem;
     display: inline-flex;
+    text-decoration: none;
 }
 
 .nav-hover-box {
@@ -183,6 +185,7 @@ nav {
         width: 100%;
         margin: 0;
         padding: 10px 0;
+        text-decoration: none;
     }
     #container-fluid.show {
         display: flex;
