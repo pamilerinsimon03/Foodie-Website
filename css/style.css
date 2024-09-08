@@ -170,13 +170,15 @@ nav {
         flex-direction: column;
         background-color: white;
         position: absolute;
-        top: 90px;
+        top: 80px;
         right: 0;
         left: 0;
         z-index: 999;
         padding-left: 2rem;
         padding-right: 2rem;
         padding-bottom: 1.5rem;
+        margin-top: 0;
+        padding-top: 0;
     }
     #navbar-nav {
         display: block;
@@ -195,6 +197,9 @@ nav {
     }
     #container-fluid.show {
         display: flex;
+        top: 80px;
+        margin-top: 0;
+        padding-top: 0;
     }
     .nav-hover-box:hover {
         width: auto;
