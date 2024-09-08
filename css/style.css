@@ -1,3 +1,6 @@
+html {
+    height: 100%;
+}
 body {
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -5,8 +8,11 @@ body {
     box-sizing: border-box;
     max-width: 100%;
     color: #081C58;
+    height: 100%;
 }
-
+a {
+    text-decoration: none;
+}
 h2 {
     font-weight: 700;
 }
@@ -28,7 +34,7 @@ header {
     background-size: 800px;
     background-repeat: no-repeat;
     background-position: right;
-    height: 100vh;
+    height: 100%;
     max-height: 100%;
     padding-bottom: 8rem;
     max-width: 100%;
