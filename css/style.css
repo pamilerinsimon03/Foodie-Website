@@ -166,8 +166,8 @@ nav {
         right: 0;
         left: 0;
         z-index: 999;
-        padding-left: 6rem;
-        padding-right: 6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         padding-bottom: 1.5rem;
     }
     #navbar-nav {
@@ -183,7 +183,6 @@ nav {
         width: 100%;
         margin: 0;
         padding: 10px 0;
-        border-bottom: 1px solid #ddd;
     }
     #container-fluid.show {
         display: flex;
